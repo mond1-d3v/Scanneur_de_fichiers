@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberSentinel - Redirection</title>
+
+</head>
+<body>
+    <div class="container">
+        <h1>CyberSentinel</h1>
+        <p>Cette page est uniquement un point d'accès API. Pour accéder à l'interface utilisateur complète, veuillez utiliser l'application frontend.</p>
+        <a href="http://localhost:5173" class="redirect-button">Accéder à l'interface</a>
+    </div>
+    <script>
+        setTimeout(() => {
+            window.location.href = "http://localhost:5173";
+        }, 3000);
+    </script>
+</body>
+</html>
